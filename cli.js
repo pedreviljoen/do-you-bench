@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { promptQuestion, collectInput } = require("./src/consolePrompter")
 const { executeShell } = require("./src/execute")
 const chalk = require("chalk")
