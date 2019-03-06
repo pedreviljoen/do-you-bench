@@ -1,0 +1,18 @@
+git:
+  depth:
+    2
+language: node_js
+node_js:
+  - stable
+cache:
+  directories:
+    - node_modules
+deploy:
+  provider: npm
+  email: pedre87@gmail.com
+  on:
+    branch:
+      - master
+  api_key: S6n825EXW30gdHCZdlFfJdXoVv7aITpps7qvCmnzqupiiX7SGWkl5BmmRn1DjdBI4Utm6rL4YFQuEzkkFRkZCQWvdjFStsofsT9hAiinQjZeaT4+HYhoIohQg46LqZu6Bljbmga8ZzNTlAy/yexnBljFsAxrZb39VR0/YzYHveWU3Jy5F5tPzBQ4OUSoIwJbuPavSni3aRTWb65K9j9vtQbZtJu9R84WdJwK5CHJZkTBnAt0Hyxwcc8tid2t6bNYQm42xH9EZrMOhTWKLj34Td+VK6YNCcOkfDlO8FYF24kfjaKsjG1lRjlnS85Fe+LWc+RFGgNrTTuyvo49BfnX99Q64cYswC3WRqcmgWrka3FkgyybjNwoOvtw3VguFQkhZdri7yU3110RA6he4HQjE0ZOSOX/+xOSFIoK/0J7Z/uUdZPPCuLHNwHS0+gZ8sB5HtL/f3XiVdhM6UhZhsIsNu9lF7q+cm4naU9cyIR2HWQxaPkZxiG2UiZF8tYNYgbIVv/6FvT9CAEvgqrG0Fmnmvq7nXRachM3ZXVEYgllyRga6re+VA2REO/sYRVfevtFWQl2DBUqL8YVR71ZbH1QtFH6UvfobYRutrO6XIvd8sURded6Ak1VIvIztjjOeRZY4NM807XJjDyE+b7zVDcWVvLGywLFhG1UwrZdMw+dXxk=
+script:
+  - nohup yarn test
