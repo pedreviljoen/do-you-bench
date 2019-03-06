@@ -4,12 +4,12 @@
 
 # do-you-bench
 
-[![Package version](https://img.shields.io/npm/v/do-you-even-bench.svg?style=flat-square)](https://npmjs.org/package/do-you-bench)
+[![Package version](https://img.shields.io/npm/v/do-you-bench.svg?style=flat-square)](https://npmjs.org/package/do-you-bench)
 [![Make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![License](https://img.shields.io/npm/l/do-you-even-bench.svg?style=flat-square)](https://github.com/pedreviljoen/do-you-bench/blob/master/LICENSE) 
-[![npm downloads](https://img.shields.io/npm/dm/do-you-even-bench.svg?style=flat-square)](https://npmjs.org/package/do-you-bench)
+[![License](https://img.shields.io/npm/l/do-you-bench.svg?style=flat-square)](https://github.com/pedreviljoen/do-you-bench/blob/master/LICENSE) 
+[![npm downloads](https://img.shields.io/npm/dm/do-you-bench.svg?style=flat-square)](https://npmjs.org/package/do-you-bench)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/do-you-even-bench.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/do-you-bench.svg)](https://greenkeeper.io/)
 
 > Simple recommended fields checker for your package.json
 

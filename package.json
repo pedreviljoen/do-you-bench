@@ -1,5 +1,5 @@
 {
-  "name": "do-you-even-bench",
+  "name": "do-you-bench",
   "version": "1.0.0",
   "description": "Simple interactive http[s] benchmarking tool",
   "main": "cli.js",

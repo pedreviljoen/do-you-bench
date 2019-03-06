@@ -1,7 +1,1 @@
-module.exports = [
-    'Requests',
-    'Concurrency',
-    'Protocol',
-    'Hostname',
-    'Path'
-]
+module.exports = ["Requests", "Concurrency", "Protocol", "Hostname", "Path"]

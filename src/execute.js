@@ -1,11 +1,13 @@
-const shell = require('shelljs')
+const shell = require("shelljs")
 
-const executeShell = ( input = {} ) => {
-    const cmd = `ab -n ${input.requests} -c ${input.concurrency} ${input.protocol}://${input.hostname}/${input.path}`
+const executeShell = (input = {}) => {
+  const cmd = `ab -n ${input.requests} -c ${input.concurrency} ${input.protocol}://${
+    input.hostname
+  }/${input.path}`
 
-    shell.exec(cmd)
+  shell.exec(cmd)
 }
 
 module.exports = {
-    executeShell
+  executeShell
 }
