@@ -1,0 +1,31 @@
+{
+  "name": "do-you-even-bench",
+  "version": "1.0.0",
+  "description": "Simple interactive http[s] benchmarking tool",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo 'no tests'",
+    "format": "prettier --no-semi --tab-width 2 --print-width 100 --write **/*.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn format"
+    }
+  },
+  "keywords": [
+    "http",
+    "benchmark",
+    "api benchmarking",
+    "https benchmark"
+  ],
+  "author": "Pedre Viljoen",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "jest": "^24.1.0",
+    "prettier": "^1.16.4"
+  },
+  "bin": {
+    "police": "./cli.js"
+  }
+}
