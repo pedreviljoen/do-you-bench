@@ -1,10 +1,9 @@
-const { promptQuestion, collectInput } = require('./src/consolePrompter')
-const { executeShell } = require('./src/execute')
-const chalk = require('chalk')
-const figlet = require('figlet')
-const colors = require('colors')
-const topics = require('./config/topics')
-
+const { promptQuestion, collectInput } = require("./src/consolePrompter")
+const { executeShell } = require("./src/execute")
+const chalk = require("chalk")
+const figlet = require("figlet")
+const colors = require("colors")
+const topics = require("./config/topics")
 
 const init = () => {
     console.log(
