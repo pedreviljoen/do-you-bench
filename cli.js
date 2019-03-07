@@ -28,7 +28,6 @@ const run = async () => {
     )
 
     const executables = await promptQuestion(prompts)
-    console.log(executables)
     executeShell(executables)
 }
 
