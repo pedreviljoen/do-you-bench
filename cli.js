@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-const { promptQuestion, collectInput } = require("./src/consolePrompter")
+const { promptQuestion } = require("./src/consolePrompter")
 const { executeShell } = require("./src/execute")
 const chalk = require("chalk")
 const figlet = require("figlet")
 const colors = require("colors")
-const topics = require("./config/topics")
+const prompts = require("./config/prompts")
 
 const init = () => {
     console.log(
@@ -27,8 +27,8 @@ const run = async () => {
         colors.red.bold("What's your max bench? Follow the prompts below")
     )
 
-    const questions = collectInput(topics)
-    const executables = await promptQuestion(questions)
+    const executables = await promptQuestion(prompts)
+    console.log(executables)
     executeShell(executables)
 }
 
