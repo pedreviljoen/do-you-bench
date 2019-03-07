@@ -19,6 +19,7 @@
   - [Contents](#contents)
   - [Install](#install)
   - [Usage](#usage)
+  - [Methods](#methods)
   - [Contribute](#contribute)
   - [License](#license)
 
@@ -37,6 +38,11 @@ bench
 ```
 
 & follow the prompts
+
+## Methods
+
+- [x] GET
+- [ ] POST
 
 
 ## Contribute
