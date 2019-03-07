@@ -11,7 +11,7 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/do-you-bench.svg)](https://greenkeeper.io/)
 
-> Simple recommended fields checker for your package.json
+> Simple interactive http[s] benchmarking tool
 
 ## Contents
 
