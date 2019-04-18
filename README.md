@@ -13,7 +13,7 @@
 
 [![Package Quality](https://npm.packagequality.com/badge/do-you-bench.png)](https://packagequality.com/#?package=do-you-bench)
 
-> Simple recommended fields checker for your package.json
+> Simple interactive http[s] benchmarking tool
 
 ## Contents
 
@@ -21,6 +21,7 @@
   - [Contents](#contents)
   - [Install](#install)
   - [Usage](#usage)
+  - [Methods](#methods)
   - [Contribute](#contribute)
   - [License](#license)
 
@@ -39,6 +40,11 @@ bench
 ```
 
 & follow the prompts
+
+## Methods
+
+- [x] GET
+- [ ] POST
 
 
 ## Contribute
