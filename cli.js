@@ -8,7 +8,7 @@ const prompts = require("./config/prompts")
 
 const init = () => {
     console.log(
-        chalk.green(
+        chalk.red(
             figlet.textSync('Arnold Benches, do you?', {
                 font: 'Standard',
                 horizontalLayout: 'default',
