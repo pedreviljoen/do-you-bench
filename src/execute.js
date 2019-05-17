@@ -1,6 +1,6 @@
 const shell = require("shelljs")
 
-const executeShell = (cmd) => {
+const executeShell = cmd => {
   shell.exec(cmd)
 }
 
