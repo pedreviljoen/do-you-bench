@@ -1,10 +1,10 @@
 {
   "name": "do-you-bench",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Simple interactive http[s] benchmarking tool",
   "main": "cli.js",
   "scripts": {
-    "test": "echo 'no tests'",
+    "test": "jest",
     "format": "prettier --no-semi --tab-width 2 --print-width 100 --write **/*.js"
   },
   "husky": {

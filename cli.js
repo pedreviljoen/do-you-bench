@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { promptQuestion } = require("./src/consolePrompter")
-const { executeShell } = require("./src/execute")
+const { executeShell, generateCommand } = require("./src/execute")
 const chalk = require("chalk")
 const figlet = require("figlet")
 const colors = require("colors")
@@ -28,7 +28,8 @@ const run = async () => {
     )
 
     const executables = await promptQuestion(prompts)
-    executeShell(executables)
+    const cmd = generateCommand(executables)
+    executeShell(cmd)
 }
 
 run()
