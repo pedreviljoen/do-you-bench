@@ -5,7 +5,7 @@ const executeShell = cmd => {
 }
 
 const generateCommand = (input = {}) => {
-  return `ab f -n ${input.requests} -c ${input.concurrency} ${input.protocol}://www.${
+  return `ab -n ${input.requests} -c ${input.concurrency} ${input.protocol}://www.${
     input.hostname
   }/${input.path}`
 }
