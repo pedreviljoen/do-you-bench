@@ -36,7 +36,7 @@
     "chalk": "^2.4.2",
     "colors": "^1.3.3",
     "figlet": "^1.2.1",
-    "inquirer": "^6.2.2",
+    "inquirer": "^7.0.0",
     "shelljs": "^0.8.3"
   }
 }
