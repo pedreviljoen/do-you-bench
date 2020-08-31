@@ -10,6 +10,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/do-you-bench.svg?style=flat-square)](https://npmjs.org/package/do-you-bench)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/do-you-bench.svg)](https://greenkeeper.io/)
+[![CircleCI](https://circleci.com/gh/pedreviljoen/do-you-bench/tree/master.svg?style=svg)](https://circleci.com/gh/pedreviljoen/do-you-bench/tree/master)
 
 [![Package Quality](https://npm.packagequality.com/badge/do-you-bench.png)](https://packagequality.com/#?package=do-you-bench)
 
