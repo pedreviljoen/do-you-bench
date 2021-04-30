@@ -1,16 +1,24 @@
 const shell = require("shelljs")
 
-const executeShell = cmd => {
+const executeShell = (cmd) => {
   shell.exec(cmd)
 }
 
 const generateCommand = (input = {}) => {
-  return `ab -n ${input.requests} -c ${input.concurrency} ${input.protocol}://www.${
-    input.hostname
-  }/${input.path}`
+  let command = `ab -n ${input.requests} -c ${input.concurrency} `
+
+  if (input.postfile) {
+    command = `${command} -p ${input.postfile} -H 'accept: application/json' -H 'Content-Type: application/json' `
+  }
+
+  return `${command} ${input.protocol}://${input.domain}/${replaceAll(input.path, "/", "")}/`
+}
+
+function replaceAll(string = "", character = "", replace = "") {
+  return string.split(character).join(replace)
 }
 
 module.exports = {
   executeShell,
-  generateCommand
+  generateCommand,
 }

@@ -1,6 +1,6 @@
 {
   "name": "do-you-bench",
-  "version": "2.1.2",
+  "version": "3.0.0",
   "description": "Simple interactive http[s] benchmarking tool",
   "main": "cli.js",
   "scripts": {

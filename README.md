@@ -45,7 +45,7 @@ bench
 ## Methods
 
 - [x] GET
-- [ ] POST
+- [x] POST
 
 
 ## Contribute
