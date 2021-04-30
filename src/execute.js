@@ -5,8 +5,14 @@ const executeShell = cmd => {
 }
 
 const generateCommand = (input = {}) => {
-  return `ab -n ${input.requests} -c ${input.concurrency} ${input.protocol}://www.${
-    input.hostname
+  let command = `ab -n ${input.requests} -c ${input.concurrency} `
+
+  if (input.postfile) {
+    command = `${command} -p ${input.postfile}`
+  }
+
+  return `${command} ${input.protocol}://${
+    input.domain
   }/${input.path}`
 }
 

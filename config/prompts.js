@@ -19,9 +19,22 @@ module.exports = [
     default: "http"
   },
   {
-    name: "hostname",
+    name: "method",
+    type: "list",
+    message: "Please choose the Method of the request",
+    choices: ["GET", "POST"],
+    default: "GET"
+  },
+  {
+    name: "postfile",
     type: "input",
-    message: "Please specify a host name",
+    message: "Please specify the post data file",
+    when: (answers) => answers.method === "POST"
+  },
+  {
+    name: "domain",
+    type: "input",
+    message: "Please specify the domain name",
     validate: function(val) {
       if (val.length) {
         return true
