@@ -6,7 +6,7 @@ test("Should generate http command", () => {
     concurrency: 5,
     protocol: "http",
     hostname: "revix.com",
-    path: ""
+    path: "",
   }
 
   const cmd = generateCommand(executables)
@@ -19,7 +19,7 @@ test("Should generate https command", () => {
     concurrency: 5,
     protocol: "https",
     hostname: "revix.com",
-    path: ""
+    path: "",
   }
 
   const cmd = generateCommand(executables)
