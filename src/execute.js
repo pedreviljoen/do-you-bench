@@ -11,7 +11,11 @@ const generateCommand = (input = {}) => {
     command = `${command} -p ${input.postfile} -H 'accept: application/json' -H 'Content-Type: application/json' `
   }
 
-  return `${command} ${input.protocol}://${input.domain}/${input.path}/`
+  return `${command} ${input.protocol}://${input.domain}/${replaceAll(input.path, '/', '')}/`
+}
+
+function replaceAll (string = '', character = '', replace = '') {
+  return string.split(character).join(replace)
 }
 
 module.exports = {
